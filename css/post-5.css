@@ -1,0 +1,632 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #0B192F;
+	box-sizing: border-box;
+}
+
+/*header*/
+
+header
+{
+	width:auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: absolute
+}
+
+/*frist border*/
+.nav
+{
+	display: block;
+	width: 1100px;
+	height: 100px;
+	background:#162B4D;
+	margin-left:100px;
+	padding: 0;
+	position:absolute;
+	clear: both;
+	content: ".";
+	text-decoration: none
+	
+}
+
+.logo a
+{
+	text-decoration: none;
+}
+
+.fristborder h2
+{
+	
+	padding-left: 60px;
+	color:#FFF;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	word-spacing: -1px;
+	font-size:30px;
+	text-decoration: none
+	
+	
+}
+
+
+
+.fristborder h2 span
+{
+	color:#d12767;
+	background: transparent;
+	text-decoration: none
+}
+
+#list
+{
+	height: 100%;
+    font-size: 30px;
+    line-height: 60px;
+    vertical-align:top;
+    text-align: center;
+    background-color: transparent;
+    width: auto;
+    margin-top:-75px;
+    z-index: 1;
+	margin-right: 150px
+}
+
+.fristborder ul
+{
+	
+	float: right;
+}
+
+.fristborder ul li
+{
+	
+	float: left;
+	padding-right: 25px;
+	list-style: none outside none;
+	display: inline;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.fristborder ul li a 
+{
+	text-decoration: none;
+	text-align: center;
+	display:inline-block;
+	color:#FFF;
+	font-size:25px;
+	margin-top:-25px;
+	
+		
+}
+
+#list li:hover {
+    background-color: #0b192f;
+	transition: 1s ease-in-out
+}
+
+ul#defrrent li a
+{
+	background:#0b192f
+}
+
+div#icon 
+{
+	float: right;
+	margin-top:-60px;
+	padding-right: 40px;
+	margin-right: -650px
+}
+
+div#icon i
+{
+	padding: 13px;
+	border:2px solid #000;
+	border-radius: 50%;
+	background:#FFF;
+	opacity: .4;
+	width:10px;
+	height: 10px;
+	text-align: center;
+	
+}
+
+div#icon i:hover
+{
+	opacity: 1;
+	transition:.8s ease-in-out;
+	cursor: pointer;
+}
+
+.secandborder
+{
+	width:auto;
+	height: auto;
+	position: static;
+	
+}
+
+
+
+.frisr
+{
+	border:2px solid transparent;
+	display: inline-block;
+	width: 800px;
+	margin-left:100px;
+	margin-top:120px;
+	background: #2d95bb;
+	height: 110px;
+	
+}
+
+.frisr span
+{
+	text-align: center;
+	color:#FFF;
+	font-size: 50px;
+	opacity: .3;
+	margin-left:400px;
+}
+.frisr h4
+{
+	text-align: center;
+	color:#FFF;
+	font-size: 25px;
+	opacity: .3;
+	margin-left:50px;
+	margin-top:-10px
+}
+
+.frisr a
+{
+	text-decoration: none;
+	
+}
+
+
+.siderborder
+{
+	float: right;
+	width: auto;
+	height: auto;
+	margin:0;
+	padding: 0;
+}
+
+.siderborder .fristnews
+{
+	border:2px solid transparent;
+	height: 510px;
+	width:270px;
+	margin-top:-1721px;
+	margin-right:150px;
+	float: right;
+	background: #fff;
+	
+}
+
+.fristnews img
+{
+	width:274px;
+	height: 200px;
+	margin-top:-2px;
+	margin-left:-2px;
+	background-size: contain;
+}
+
+.fristnews h3
+{
+	
+	width:180px;
+	font-size: 30px;
+	color:#000;
+	font-weight: normal;
+	margin-top:5px;
+	margin-left:30px;
+	padding: 0;
+	line-height: 32px
+}
+
+.fristnews p
+{
+	
+	width:200px;
+	color:#000;
+	font-weight: normal;
+	margin-top:-20px;
+	margin-left:30px;
+	line-height: 20px;
+	opacity: .6
+}
+
+.siderborder .secandnews
+{
+	border:2px solid transparent;
+	height: 626px;
+	width:270px;
+	margin-top:-630px;
+	background: #fff;
+	margin-right:150px;
+	float: right;
+	
+}
+
+.secandnews img
+{
+	width:274px;
+	height: 200px;
+	margin-top:-2px;
+	margin-left:-2px;
+	background-size: contain;
+}
+
+.secandnews h3
+{
+	
+	width:180px;
+	font-size: 30px;
+	color:#000;
+	font-weight: normal;
+	margin-top:5px;
+	margin-left:30px;
+	padding: 0;
+	line-height: 32px
+}
+
+.secandnews p
+{
+	
+	width:200px;
+	color:#000;
+	font-weight: normal;
+	margin-top:-15px;
+	margin-left:30px;
+	line-height: 20px;
+	opacity: .6
+}
+
+
+.thirdnews
+{
+	border:2px solid transparent;
+	height: 535px;
+	width:270px;
+	
+	background:url(../img/banner.jpg);
+	margin-top:-1185px;
+	
+	margin-right:150px;
+	float: right;
+}
+
+.textborder 
+{
+	border:2px solid #EEE;
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	margin-left:100px;
+	background:#FFF;
+	
+}
+
+.textborder h2
+{
+	font-wight:normal;
+	font-size:40px;
+	margin-left:-5px;
+	margin-top:20px;
+	color:#000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+.textborder p#para1
+{
+	width:80%;
+	height: auto;
+	line-height: 20px;
+	word-break: break-all;
+	word-spacing: 3px;
+	margin-top:-28px;
+	margin-left:58px;
+	color:#6a7c98;
+}
+
+.textborder hr
+{
+	color:#6a7c98 ;
+	width:95px;
+	border:1px solid;
+	transform: rotate(-90deg);
+	position:relative;
+	transform-origin: left top ;
+	margin-top:110px ;
+	margin-left: 80px	
+}
+
+#par
+{
+	font-family: 'Dancing Script', cursive;
+	width:80%;
+	margin-left:90px;
+	font-size:23px;
+	color:#6a7c98;
+	margin-top:-105px
+}
+
+#para2
+{
+	width:80%;
+	height: auto;
+	line-height: 20px;
+	word-break: break-all;
+	word-spacing: 3px;
+	margin-left:58px;
+	color:#6a7c98;
+}
+
+#para3
+{
+	width:80%;
+	height: auto;
+	line-height: 20px;
+	word-break: break-all;
+	word-spacing: 3px;
+	margin-left:58px;
+	margin-top:10px;
+	color:#6a7c98;
+}
+
+#para
+{
+	width:80%;
+	height: auto;
+	line-height: 20px;
+	word-break: break-all;
+	word-spacing: 3px;
+	margin-left:54px;
+	color:#6a7c98;
+	margin-top:-20px
+}
+
+.textborder h3
+{
+	font-family: 'Supermercado One', cursive;
+	width: 83%;
+	border:2px solid #FFF;
+	background: #DDD;
+	height: 30px;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-left:50px;
+	opacity: .5
+}
+
+.textborder img
+{
+	width: 85%;
+	margin-left:55px;
+}
+
+#ads
+{
+	width: 800px;
+	border:2px solid #FFF;
+	height: 170px;
+	margin-left: 100px;
+	margin-top:20pX;
+	background:#FFF
+}
+
+#ads img
+{
+	width: 85%;
+	text-align: center;
+	margin-left:60px;
+	margin-top:20px
+	
+}
+
+.secandnews a
+{
+	text-decoration: none;
+}
+.secandnews #fristsnews h3
+{
+	margin-top:10px;
+	margin-left: 30px;
+}
+
+.secandnews #fristsnews a h4
+{
+	text-align: center;
+	margin-left:-35px;
+	margin-top: -20px;
+	color:#000;
+	font-weight: normal;
+}
+
+.secandnews #fristsnews a h4:hover
+{
+	color:#b71757
+}
+
+.secandnews #fristsnews p
+{
+	margin-top: -15px
+}
+.secandnews #fristsnews hr
+{
+	width:80%;
+	margin-top:-10px;
+	opacity: .6;
+	color:#EEE;
+}
+
+.secandnews #secandnews a h4
+{
+	text-align: center;
+	margin-left:-55px;
+	margin-top: 5px;
+	color:#000;
+	font-weight: normal;
+}
+
+.secandnews #secandnews a h4:hover
+{
+	color:#b71757
+}
+
+.secandnews #secandnews p
+{
+	margin-top: -15px
+}
+.secandnews #secandnews hr
+{
+	width:80%;
+	margin-top:5px;
+	opacity: .6;
+	color:#EEE;
+}
+
+.secandnews #thirdnews a h4
+{
+	text-align: center;
+	margin-left:-50px;
+	margin-top: 5px;
+	color:#000;
+	font-weight: normal;
+}
+
+.secandnews #thirdnews a h4:hover
+{
+	color:#b71757
+}
+
+.secandnews #thirdnews p
+{
+	margin-top: -15px
+}
+.secandnews #thirdnews hr
+{
+	width:80%;
+	margin-top:5px;
+	opacity: .6;
+	color:#EEE;
+}
+
+.secandnews #fournews a h4
+{
+	text-align: center;
+	margin-left:-40px;
+	margin-top: 5px;
+	color:#000;
+	font-weight: normal;
+}
+
+.secandnews #fournews a h4:hover
+{
+	color:#b71757
+}
+
+.secandnews #fournews p
+{
+	margin-top: -15px
+}
+.secandnews #fournews hr
+{
+	width:80%;
+	margin-top:5px;
+	opacity: .6;
+	color:#EEE;
+}
+
+.secandnews #fivenews a h4
+{
+	text-align: center;
+	margin-left:-20px;
+	margin-top: 5px;
+	color:#000;
+	font-weight: normal;
+}
+
+.secandnews #fivenews a h4:hover
+{
+	color:#b71757
+}
+
+.secandnews #fivenews p
+{
+	margin-top: -15px
+}
+
+
+#para4
+{
+	width:80%;
+	height: auto;
+	line-height: 20px;
+	word-break: break-all;
+	word-spacing: 3px;
+	margin-left:58px;
+	margin-top:20px;
+	color:#6a7c98;
+}
+
+
+
+
+
+
+
+
+
+
+    /*footer*/
+
+.footer
+{
+	width: 1100px;
+	height: 90px;
+	background:#162b4d;
+	margin-left:100px;
+	margin-top:20px;
+}
+
+.footer p
+{
+	float: left;
+	color:#FFF;
+	opacity: .3;
+	margin-top:30px;
+	margin-left: 30px;
+}
+
+.footer span
+{
+	margin-top:15px;
+	margin-left: 100px;
+	color:#FFF;
+	opacity: .3;
+	width:200px;
+	font-size:20px;
+	display:inline-block;
+	width:400px;
+
+}
+
+
+.footer object{
+	width:30px;
+	height:30px;
+}
